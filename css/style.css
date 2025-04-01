@@ -363,7 +363,7 @@ nav ul {
     height: 100%;
     display: grid;
     grid-template-columns: 25% 25% 25% 24%;
-    transform: translateY(200px);
+    transform: translateX(200px);
     overflow: hidden;
     padding: 40px;
     margin-top: 50px;
