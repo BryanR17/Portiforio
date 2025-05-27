@@ -19,3 +19,6 @@ Bem-vindo ao meu portfólio! Este projeto foi desenvolvido utilizando **HTML e C
 
 Agradeço pela visita e espero que goste do meu trabalho! 🚀
 
+![image](https://github.com/user-attachments/assets/cf7ccbfa-97e8-468d-bfea-00550053525f)
+
+
