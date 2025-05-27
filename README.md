@@ -14,7 +14,7 @@ Bem-vindo ao meu portfólio! Este projeto foi desenvolvido utilizando **HTML e C
 
 ## Contato
 - **E-mail**: bryanrodrigues3002@gmail.com
-- **LinkedIn**: [[linkedin.com/in/seuusuario]([https://linkedin.com/in/seuusuario](https://www.linkedin.com/notifications/?filter=all](https://www.linkedin.com/in/bryan-rodrigu4368br34/)))](https://www.linkedin.com/in/bryan-rodrigu4368br34/)
+- **LinkedIn**: [([https://linkedin.com/in/seuusuario](https://www.linkedin.com/notifications/?filter=all](https://www.linkedin.com/in/bryan-rodrigu4368br34/)))](https://www.linkedin.com/in/bryan-rodrigu4368br34/)
 - **Instagram**: [@bryanrodrim](https://instagram.com/bryanrodrim)
 
 Agradeço pela visita e espero que goste do meu trabalho! 🚀
