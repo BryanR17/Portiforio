@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/imagens/1.png" type="image/png">
+    <title>Bryan Rodrigues | Dev Junior </title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/pages.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Phudu:wght@300..900&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script>
+        // Previne a rolagem automática para âncoras
+        window.onload = function() {
+            if(window.location.hash) {
+                window.scrollTo(0, 0); // Volta para o topo quando a página for carregada com uma âncora na URL
+            }
+        }
+    </script>
+</head>
+<body>
+    
+    <header>
+
+        <div class="menu">
+            <img src="/imagens/1.png" class="logo">
+            <nav>
+                <ul>
+                    <li class="sobre"><a href="/index.html#mim" class="sobre-link">Sobre</a></li>
+                    <li class="projetos"><a href="/index.html#sub3" class="projetos-link">Projetos</a></li>
+                    <li class="tec"><a href="/index.html#tec" class="tec-link">Tecnologias</a></li>
+                    <li class="contato"><a href="/index.html#contato" class="contato-link">Contato</a></li>
+                </ul>
+            </nav> 
+        </div>
+        
+    </header>
+
+    <main>
+        <div class="container-pages">
+            <h1>Oscria Store</h1>
+            <p>Essa Linkpage feita para a loja OsCriaStore foi minha primeira experiencia com HTML, CSS e JavaScript, um trabalho simples que foi 
+                feito com muita dedicação, uma vez que era meu primeiro contato com essas linguagens. O codigo dessa pagina está no meu github </p>
+
+            <div class="slider">
+                <div class="slides" id="slides">
+                    <div class="slide"><video autoplay loop><source src="/imagens/prints/oscria3.mp4" type="video/mp4">Seu navegador não suporta vídeo.</video></div>
+                    <div class="slide"><img src="/imagens/prints/oscria1.png" alt="Imagem 1"></div>
+                    <div class="slide"><img src="/imagens/prints/oscria2.png" alt="Imagem 2"></div>
+                </div>
+                <div class="nav">
+                    <button onclick="prevSlide()"><i class="bi bi-caret-left-fill"></i></button>
+                    <button onclick="nextSlide()"><i class="bi bi-caret-right-fill"></i></button>
+                </div>
+            </div>
+
+            <div class="linguagem">
+                <img src="/imagens/html.png" alt="">
+                <img src="/imagens/css-3.png" alt="">
+                <img src="/imagens/js.png" alt="">
+            </div>
+
+            <div class="btn-link">
+                <a href="https://rodekprojects.github.io/OsCria_Store/" target="_blank">
+                    <button><i class="bi bi-link-45deg"></i>Acessar pagina</button>
+                </a> 
+
+                <a href="https://github.com/rodekprojects/OsCria_Store" target="_blank">
+                    <button><i class="bi bi-github"></i>Acessar código</button>
+                </a> 
+            </div>
+
+            <a href="/index.html">
+                <button><i class="bi bi-arrow-left"></i> Voltar</button>
+            </a>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="rodape">
+            <p>©Direitos reservados para Bryan Rodrigues Martins - 2025</p>
+        </div>
+    </footer>
+
+    <script>
+        const slides = document.getElementById('slides');
+        const totalSlides = slides.children.length;
+        let index = 0;
+
+        function showSlide(i) {
+            if (i >= totalSlides) index = 0;
+            else if (i < 0) index = totalSlides - 1;
+            else index = i;
+
+            slides.style.transform = `translateX(-${index * 100}%)`;
+        }
+
+        function nextSlide() {
+            showSlide(index + 1);
+        }
+
+        function prevSlide() {
+            showSlide(index - 1);
+        }
+    </script>
+</body>
+</html>
